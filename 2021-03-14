@@ -1,0 +1,43 @@
+"""
+Notes for 3/14/2021
+Pi day yay
+
+We went over the following
+If statements
+"""
+a = True
+if a: print(True)
+"""
+More complicated if statements
+"""
+a,b = True
+if a and b:
+  print(True)
+if not a:
+  print("Not a")
+"""
+functions
+"""
+def main():
+   print("hi")
+
+if __name__ == "__main__": main()
+
+
+"""
+Recursion
+"""
+
+def hi():
+   print("hi")
+   hi()
+#this will print out a recursive loop and error out with a Infinite Recursion Depth
+#to fix this error
+def hi(a):
+   if a = 2: return
+   print("hi")
+   hi(a + 1)
+"""
+for loops
+for x in range(9):
+   print(x)
