@@ -1,16 +1,22 @@
 """
-Notes for 3/14/2021
-Pi day yay
+Links
+https://docs.python.org/3/tutorial/controlflow.html
+https://docs.python.org/3/tutorial/controlflow.html#the-range-function
+https://www.w3schools.com/python/python_functions.asp
+https://realpython.com/defining-your-own-python-function/
 
-We went over the following
-If statements
 """
+#Notes for 3/14/2021
+#Pi day yay
+
+#We went over the following
+#If statements
 a = True
 if a: print(True)
 """
 More complicated if statements
 """
-a,b = True
+a,b = True,True
 if a and b:
   print(True)
 if not a:
@@ -34,10 +40,9 @@ def hi():
 #this will print out a recursive loop and error out with a Infinite Recursion Depth
 #to fix this error
 def hi(a):
-   if a = 2: return
+   if a == 2: return
    print("hi")
    hi(a + 1)
-"""
-for loops
+#for loops
 for x in range(9):
    print(x)
